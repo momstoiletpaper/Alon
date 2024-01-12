@@ -129,5 +129,5 @@ client.discord.on("interactionCreate", async interaction => {
 	}
 })
 
-database.setup(process.env.url_dburi)
+//database.setup(process.env.url_dburi)
 client.login(client.x.token)
